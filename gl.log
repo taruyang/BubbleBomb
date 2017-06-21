@@ -1,0 +1,45 @@
+
+[GL LOG] local time Fri Jun  2 10:19:15 2017
+ 
+[GL LOG]Starting GLFW 3.0.1 X11 GLX glXGetProcAddress clock_gettime /dev/js 
+[GL LOG]Renderer: Gallium 0.4 on AMD ARUBA (DRM 2.46.0 / 4.8.0-52-generic, LLVM 3.8.0)
+[GL LOG]OpenGL version supported 4.1 (Core Profile) Mesa 12.0.6
+[GL LOG]renderer: Gallium 0.4 on AMD ARUBA (DRM 2.46.0 / 4.8.0-52-generic, LLVM 3.8.0)
+version: 4.1 (Core Profile) Mesa 12.0.6
+[GL LOG]program 6 GL_VALIDATE_STATUS = 1
+[GL LOG]program 9 GL_VALIDATE_STATUS = 1
+[GL LOG]program 12 GL_VALIDATE_STATUS = 1
+[GL LOG]program 15 GL_VALIDATE_STATUS = 1
+[GL LOG]program 18 GL_VALIDATE_STATUS = 1
+[GL LOG][Model][Parse] the directory path of model file (./resource/Aircraft) 
+[GL LOG][DEBUG] mNumMeshes 0 
+[GL LOG][DEBUG] mNumChildren 2 
+[GL LOG][DEBUG] mNumMeshes 1 
+[GL LOG][DEBUG] start parseMeshData 29464 vertices 
+[GL LOG][DEBUG] mNumFaces 14732 
+[GL LOG][DEBUG] mMaterialIndex 2 
+[GL LOG][DEBUG] parseTextures type 1 count 1 
+[GL LOG][DEBUG] getTextureObjFromFile ./resource/Aircraft/textures/E-45_col.jpg 
+[GL LOG][DEBUG] parseTextures type 2 count 1 
+[GL LOG][DEBUG] mNumChildren 0 
+[GL LOG][DEBUG] mNumMeshes 1 
+[GL LOG][DEBUG] start parseMeshData 2976 vertices 
+[GL LOG][DEBUG] mNumFaces 1488 
+[GL LOG][DEBUG] mMaterialIndex 1 
+[GL LOG][DEBUG] parseTextures type 1 count 1 
+[GL LOG][DEBUG] getTextureObjFromFile ./resource/Aircraft/textures/E-45_glass_nor_.jpg 
+[GL LOG][DEBUG] parseTextures type 2 count 0 
+[GL LOG][DEBUG] mNumChildren 0 
+[GL LOG][DEBUG] end of parseNodeData 
+[GL LOG][Model][Parse] the directory path of model file (./resource/Rock) 
+[GL LOG][DEBUG] mNumMeshes 0 
+[GL LOG][DEBUG] mNumChildren 1 
+[GL LOG][DEBUG] mNumMeshes 1 
+[GL LOG][DEBUG] start parseMeshData 24576 vertices 
+[GL LOG][DEBUG] mNumFaces 8192 
+[GL LOG][DEBUG] mMaterialIndex 1 
+[GL LOG][DEBUG] parseTextures type 1 count 1 
+[GL LOG][DEBUG] getTextureObjFromFile ./resource/Rock/planet_Quom1200.png 
+[GL LOG][DEBUG] parseTextures type 2 count 0 
+[GL LOG][DEBUG] mNumChildren 0 
+[GL LOG][DEBUG] end of parseNodeData 

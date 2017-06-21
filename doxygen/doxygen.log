@@ -1,0 +1,30 @@
+warning: source ../include/cubeObject.h is not a readable file or directory... skipping.
+warning: source ../cubeObject.cpp is not a readable file or directory... skipping.
+/home/taruyang/mu/graphics/Assignment/include/IGraphicObject.h:71: warning: The following parameters of gl::IGraphicObject::IsIntersected(glm::vec3 rayOrg, glm::vec3 rayDir, float *distance)=0 are not documented:
+  parameter 'distance'
+/home/taruyang/mu/graphics/Assignment/include/IGraphicObject.h:87: warning: argument 'isFocused' of command @param is not found in the argument list of gl::IGraphicObject::Reset(StudioEnv &studioEnv)=0
+/home/taruyang/mu/graphics/Assignment/include/IGraphicObject.h:87: warning: argument 'focusColor' of command @param is not found in the argument list of gl::IGraphicObject::Reset(StudioEnv &studioEnv)=0
+/home/taruyang/mu/graphics/Assignment/include/IGraphicObject.h:91: warning: The following parameters of gl::IGraphicObject::Reset(StudioEnv &studioEnv)=0 are not documented:
+  parameter 'studioEnv'
+/home/taruyang/mu/graphics/Assignment/include/shader.h:35: warning: The following parameters of gl::Shader::Shader(const GLchar *vertexPath, const GLchar *fragmentPath, const GLchar *tcsPath=nullptr, const GLchar *tesPath=nullptr, const GLchar *gsPath=nullptr) are not documented:
+  parameter 'tcsPath'
+  parameter 'tesPath'
+  parameter 'gsPath'
+/home/taruyang/mu/graphics/Assignment/include/sphereObject.h:66: warning: The following parameters of gl::SphereObject::IsIntersected(glm::vec3 rayOrg, glm::vec3 rayDir, float *distance) are not documented:
+  parameter 'distance'
+/home/taruyang/mu/graphics/Assignment/include/sphereObject.h:69: warning: argument 'isFocused' of command @param is not found in the argument list of gl::SphereObject::Reset(StudioEnv &studioEnv)
+/home/taruyang/mu/graphics/Assignment/include/sphereObject.h:69: warning: argument 'focusColor' of command @param is not found in the argument list of gl::SphereObject::Reset(StudioEnv &studioEnv)
+/home/taruyang/mu/graphics/Assignment/include/sphereObject.h:73: warning: The following parameters of gl::SphereObject::Reset(StudioEnv &studioEnv) are not documented:
+  parameter 'studioEnv'
+/home/taruyang/mu/graphics/Assignment/include/studio.h:120: warning: argument 'position' of command @param is not found in the argument list of gl::Studio::CameraSetting(glm::vec3 camPos, glm::vec3 lookAt, float near=0.1f, float far=200.0f, float fov=67.0f)
+/home/taruyang/mu/graphics/Assignment/include/studio.h:129: warning: The following parameters of gl::Studio::CameraSetting(glm::vec3 camPos, glm::vec3 lookAt, float near=0.1f, float far=200.0f, float fov=67.0f) are not documented:
+  parameter 'camPos'
+/home/taruyang/mu/graphics/Assignment/include/triangleObject.h:52: warning: argument 'PV' of command @param is not found in the argument list of gl::TriangleObject::DrawNextFrame(const double time, glm::mat4 matrix, StudioEnv &studioEnv)
+/home/taruyang/mu/graphics/Assignment/include/triangleObject.h:59: warning: The following parameters of gl::TriangleObject::DrawNextFrame(const double time, glm::mat4 matrix, StudioEnv &studioEnv) are not documented:
+  parameter 'matrix'
+/home/taruyang/mu/graphics/Assignment/include/triangleObject.h:76: warning: The following parameters of gl::TriangleObject::IsIntersected(glm::vec3 rayOrg, glm::vec3 rayDir, float *distance) are not documented:
+  parameter 'distance'
+/home/taruyang/mu/graphics/Assignment/include/triangleObject.h:93: warning: argument 'isFocused' of command @param is not found in the argument list of gl::TriangleObject::Reset(StudioEnv &studioEnv)
+/home/taruyang/mu/graphics/Assignment/include/triangleObject.h:93: warning: argument 'focusColor' of command @param is not found in the argument list of gl::TriangleObject::Reset(StudioEnv &studioEnv)
+/home/taruyang/mu/graphics/Assignment/include/triangleObject.h:97: warning: The following parameters of gl::TriangleObject::Reset(StudioEnv &studioEnv) are not documented:
+  parameter 'studioEnv'

@@ -1,0 +1,1782 @@
+# depslib dependency file v1.0
+1489009675 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/gl_helper.cpp
+	<stdio.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"gl_helper.h"
+	"gl_log.h"
+
+1483136046 /home/taruyang/mu/graphics/OpenGl/Assignment/include/GL/glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1483136046 /home/taruyang/mu/graphics/OpenGl/Assignment/include/GLFW/glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1489006897 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/gl_helper.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1489009726 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/gl_log.h
+
+1489009786 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/gl_log.cpp
+	<stdio.h>
+	<time.h>
+	<stdarg.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"gl_log.h"
+
+1483136046 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/gl_utils.cpp
+	"gl_utils.h"
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<assert.h>
+
+1483136046 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/gl_utils.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdarg.h>
+
+1489008137 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/HelloTriangle.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdio.h>
+
+1489305182 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/main.cpp
+	"windowManager.h"
+	"rendering.h"
+	"logging.h"
+	"triangleObject.h"
+	"cubeObject.h"
+
+1489006925 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/playground.cpp
+	<stdio.h>
+	"TutorialGL.h"
+
+1489006062 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/TutorialGL.h
+
+1489028074 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/log.cpp
+	<stdio.h>
+	<time.h>
+	<stdarg.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"log.h"
+
+1489028083 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/log.h
+
+1489010630 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/window.cpp
+	<stdio.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"window.h"
+	"log.h"
+
+1489010579 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/window.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1489914013 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/windowManager.cpp
+	<stdio.h>
+	"windowManager.h"
+	"logging.h"
+
+1489912443 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/windowManager.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1489912331 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/logging.cpp
+	<stdio.h>
+	<time.h>
+	<stdarg.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"logging.h"
+
+1489900145 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/logging.h
+
+1489900695 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/rendering.cpp
+	"rendering.h"
+	"IGraphicObject.h"
+
+1489912335 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/rendering.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"triangleObject.h"
+	"IGraphicObject.h"
+
+1489898746 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/shaderUtil.cpp
+	<stdio.h>
+	<stdlib.h>
+	"shaderUtil.h"
+	"logging.h"
+
+1489912340 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/shaderUtil.h
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1489138506 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/TriangleObject.h
+	<vector>
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1489912348 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/triangleObject.h
+	<vector>
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"IGraphicObject.h"
+
+1489903956 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/triangleObject.cpp
+	<math.h>
+	"triangleObject.h"
+	"shaderUtil.h"
+	"logging.h"
+
+1489903116 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/IGraphicObject.h
+
+1489902215 source:/home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/cubeObject.cpp
+	"cubeObject.h"
+	"shaderUtil.h"
+	"logging.h"
+
+1489912326 /home/taruyang/mu/graphics/OpenGl/Assignment/PlayGround/cubeObject.h
+	<vector>
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"IGraphicObject.h"
+	"triangleObject.h"
+
+1494565848 source:/home/taruyang/mu/graphics/Assignment/cubeObject.cpp
+	"cubeObject.h"
+	"logging.h"
+
+1491390403 /home/taruyang/mu/graphics/Assignment/cubeObject.h
+	<vector>
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"IGraphicObject.h"
+	"triangleObject.h"
+	"shader.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/GL/glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1490126419 /usr/include/inttypes.h
+	<features.h>
+	<stdint.h>
+	<stddef.h>
+
+1490126382 /usr/include/features.h
+	<stdc-predef.h>
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1490126382 /usr/include/stdc-predef.h
+
+1490126419 /usr/include/stdint.h
+	<features.h>
+	<bits/wchar.h>
+	<bits/wordsize.h>
+
+1445634967 /usr/include/GL/glu.h
+	"glu_mangle.h"
+	<GL/gl.h>
+
+1445634967 /usr/include/GL/glu_mangle.h
+
+1485389827 /usr/include/GL/gl.h
+	"gl_mangle.h"
+	<windows.h>
+	<GL/glext.h>
+
+1485389827 /usr/include/GL/gl_mangle.h
+
+1485389827 /usr/include/GL/glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/GLFW/glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485389827 /usr/include/GL/glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1491375913 /home/taruyang/mu/graphics/Assignment/IGraphicObject.h
+	<glm/glm.hpp>
+
+1491389412 /home/taruyang/mu/graphics/Assignment/triangleObject.h
+	<vector>
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"IGraphicObject.h"
+	"shader.h"
+
+1489912340 /home/taruyang/mu/graphics/Assignment/shaderUtil.h
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1491376758 /home/taruyang/mu/graphics/Assignment/logging.h
+
+1491782750 source:/home/taruyang/mu/graphics/Assignment/logging.cpp
+	<stdio.h>
+	<time.h>
+	<stdarg.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"logging.h"
+
+1490126432 /usr/include/stdio.h
+	<features.h>
+	<stddef.h>
+	<bits/types.h>
+	<libio.h>
+	<stdarg.h>
+	<bits/stdio_lim.h>
+	<bits/sys_errlist.h>
+	<getopt.h>
+	<bits/stdio.h>
+	<bits/stdio2.h>
+	<bits/stdio-ldbl.h>
+
+1490126432 /usr/include/libio.h
+	<_G_config.h>
+	<stdarg.h>
+	<sys/cdefs.h>
+	<shlib-compat.h>
+	<bits/libio-ldbl.h>
+
+1490126432 /usr/include/_G_config.h
+	<bits/types.h>
+	<stddef.h>
+	<wchar.h>
+	<gconv.h>
+
+1490126448 /usr/include/wchar.h
+	<features.h>
+	<stdio.h>
+	<stdarg.h>
+	<bits/wchar.h>
+	<stddef.h>
+	<wctype.h>
+	<xlocale.h>
+	<xlocale.h>
+	<xlocale.h>
+	<wctype.h>
+	<bits/wchar2.h>
+	<bits/wchar-ldbl.h>
+
+1490126459 /usr/include/wctype.h
+	<features.h>
+	<bits/types.h>
+	<wchar.h>
+	<endian.h>
+	<xlocale.h>
+
+1490126448 /usr/include/endian.h
+	<features.h>
+	<bits/endian.h>
+	<bits/byteswap.h>
+
+1490126385 /usr/include/xlocale.h
+
+1490126383 /usr/include/gconv.h
+	<features.h>
+	<wchar.h>
+	<stddef.h>
+
+1490126450 /usr/include/getopt.h
+	<ctype.h>
+
+1490126415 /usr/include/ctype.h
+	<features.h>
+	<bits/types.h>
+	<endian.h>
+	<xlocale.h>
+
+1490126449 /usr/include/time.h
+	<features.h>
+	<stddef.h>
+	<bits/time.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<xlocale.h>
+
+1491521852 source:/home/taruyang/mu/graphics/Assignment/rendering.cpp
+	"rendering.h"
+	"IGraphicObject.h"
+
+1491389477 /home/taruyang/mu/graphics/Assignment/rendering.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	"triangleObject.h"
+	"IGraphicObject.h"
+
+1489898746 source:/home/taruyang/mu/graphics/Assignment/shaderUtil.cpp
+	<stdio.h>
+	<stdlib.h>
+	"shaderUtil.h"
+	"logging.h"
+
+1490126419 /usr/include/stdlib.h
+	<features.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<xlocale.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib-bsearch.h>
+	<bits/stdlib-float.h>
+	<bits/stdlib.h>
+	<bits/stdlib-ldbl.h>
+
+1490126419 /usr/include/alloca.h
+	<features.h>
+	<stddef.h>
+
+1495752176 source:/home/taruyang/mu/graphics/Assignment/triangleObject.cpp
+	<math.h>
+	<glm/glm.hpp>
+	"triangleObject.h"
+	"logging.h"
+	"SOIL.h"
+
+1490126417 /usr/include/math.h
+	<features.h>
+	<bits/math-vector.h>
+	<bits/huge_val.h>
+	<bits/huge_valf.h>
+	<bits/huge_vall.h>
+	<bits/inf.h>
+	<bits/nan.h>
+	<bits/mathdef.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls.h>
+	<bits/mathinline.h>
+	<bits/math-finite.h>
+
+1496354892 source:/home/taruyang/mu/graphics/Assignment/windowManager.cpp
+	<stdio.h>
+	"windowManager.h"
+	"logging.h"
+
+1491376067 /home/taruyang/mu/graphics/Assignment/windowManager.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1495766787 source:/home/taruyang/mu/graphics/Assignment/main.cpp
+	"studio.h"
+
+1424014284 /usr/include/glm/glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1424014284 /usr/include/glm/detail/_fixes.hpp
+	<cmath>
+
+1438461338 /usr/include/glm/fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1424014284 /usr/include/glm/detail/type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1451844100 /usr/include/glm/detail/setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<__config>
+
+1424014284 /usr/include/glm/detail/type_float.hpp
+	"setup.hpp"
+
+1438461504 /usr/include/glm/detail/type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1451844100 /usr/include/glm/detail/precision.hpp
+
+1424014284 /usr/include/glm/detail/type_mat.hpp
+	"precision.hpp"
+
+1424014284 /usr/include/glm/vec2.hpp
+	"detail/type_vec2.hpp"
+
+1451844100 /usr/include/glm/detail/type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1424014284 /usr/include/glm/detail/_swizzle.hpp
+
+1424014284 /usr/include/glm/detail/_swizzle_func.hpp
+
+1451844100 /usr/include/glm/detail/type_vec2.inl
+
+1424014284 /usr/include/glm/vec3.hpp
+	"detail/type_vec3.hpp"
+
+1451844100 /usr/include/glm/detail/type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1451844100 /usr/include/glm/detail/type_vec3.inl
+
+1424014284 /usr/include/glm/vec4.hpp
+	"detail/type_vec4.hpp"
+
+1451844100 /usr/include/glm/detail/type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1451844100 /usr/include/glm/detail/type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1441035294 /usr/include/glm/detail/type_vec4_sse2.inl
+
+1424014284 /usr/include/glm/detail/type_vec4_avx.inl
+
+1424014284 /usr/include/glm/detail/type_vec4_avx2.inl
+
+1424014284 /usr/include/glm/mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1451844100 /usr/include/glm/detail/type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1451844100 /usr/include/glm/detail/type_mat2x2.inl
+
+1424014284 /usr/include/glm/mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1451844100 /usr/include/glm/detail/type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1451844100 /usr/include/glm/detail/type_mat2x3.inl
+
+1424014284 /usr/include/glm/mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1451844100 /usr/include/glm/detail/type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1451844100 /usr/include/glm/detail/type_mat2x4.inl
+
+1424014284 /usr/include/glm/mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1451844100 /usr/include/glm/detail/type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1451844100 /usr/include/glm/detail/type_mat3x2.inl
+
+1424014284 /usr/include/glm/mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1451844100 /usr/include/glm/detail/type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1451844100 /usr/include/glm/detail/type_mat3x3.inl
+
+1424014284 /usr/include/glm/mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1451844100 /usr/include/glm/detail/type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1451844100 /usr/include/glm/detail/type_mat3x4.inl
+
+1424014284 /usr/include/glm/mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1451844100 /usr/include/glm/detail/type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1451844100 /usr/include/glm/detail/type_mat4x2.inl
+
+1424014284 /usr/include/glm/mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1451844100 /usr/include/glm/detail/type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1451844100 /usr/include/glm/detail/type_mat4x3.inl
+
+1424014284 /usr/include/glm/mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1451844100 /usr/include/glm/detail/type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1451844100 /usr/include/glm/detail/type_mat4x4.inl
+
+1424014284 /usr/include/glm/trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1441048238 /usr/include/glm/detail/func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1451844100 /usr/include/glm/detail/func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1424014284 /usr/include/glm/detail/_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1451844100 /usr/include/glm/detail/type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1451844100 /usr/include/glm/detail/type_vec1.inl
+
+1424014284 /usr/include/glm/exponential.hpp
+	"detail/func_exponential.hpp"
+
+1424014284 /usr/include/glm/detail/func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1424014284 /usr/include/glm/detail/func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1424014284 /usr/include/glm/detail/func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1424014284 /usr/include/glm/detail/func_vector_relational.inl
+	<limits>
+
+1424014284 /usr/include/glm/common.hpp
+	"detail/func_common.hpp"
+
+1424014284 /usr/include/glm/detail/func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1451841636 /usr/include/glm/detail/func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1424014284 /usr/include/glm/packing.hpp
+	"detail/func_packing.hpp"
+
+1424014284 /usr/include/glm/detail/func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1437258518 /usr/include/glm/detail/func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1424014284 /usr/include/glm/detail/type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1451842016 /usr/include/glm/detail/type_half.inl
+
+1424014284 /usr/include/glm/geometric.hpp
+	"detail/func_geometric.hpp"
+
+1424014284 /usr/include/glm/detail/func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1451844100 /usr/include/glm/detail/func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1424014284 /usr/include/glm/matrix.hpp
+	"detail/func_matrix.hpp"
+
+1424014284 /usr/include/glm/detail/func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1424014284 /usr/include/glm/detail/func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1424014284 /usr/include/glm/vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1424014284 /usr/include/glm/integer.hpp
+	"detail/func_integer.hpp"
+
+1424014284 /usr/include/glm/detail/func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1426535104 /usr/include/glm/detail/func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1215411208 /home/taruyang/mu/graphics/Assignment/include/SOIL/SOIL.h
+
+1493291948 source:/home/taruyang/mu/graphics/Assignment/shader.cpp
+	<stdio.h>
+	<stdlib.h>
+	"shader.h"
+	"logging.h"
+
+1491384657 /home/taruyang/mu/graphics/Assignment/shader.h
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1493367467 /home/taruyang/mu/graphics/Assignment/include/cubeObject.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"IGraphicObject.h"
+	"triangleObject.h"
+	"shader.h"
+
+1495751186 /home/taruyang/mu/graphics/Assignment/include/IGraphicObject.h
+	<glm/glm.hpp>
+	"studioEnv.h"
+
+1494670478 /home/taruyang/mu/graphics/Assignment/include/triangleObject.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"IGraphicObject.h"
+	"shader.h"
+
+1491376758 /home/taruyang/mu/graphics/Assignment/include/logging.h
+
+1496354634 /home/taruyang/mu/graphics/Assignment/include/windowManager.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1491477492 /home/taruyang/mu/graphics/Assignment/include/rendering.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	"triangleObject.h"
+	"IGraphicObject.h"
+	"camera.h"
+
+1493277053 /home/taruyang/mu/graphics/Assignment/include/shader.h
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1495750656 source:/home/taruyang/mu/graphics/Assignment/camera.cpp
+	"camera.h"
+	<stdio.h>
+	<glm/gtc/quaternion.hpp>
+
+1496353746 /home/taruyang/mu/graphics/Assignment/include/camera.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+
+1494675052 source:/home/taruyang/mu/graphics/Assignment/stageObject.cpp
+	"stageObject.h"
+	"logging.h"
+
+1493631189 /home/taruyang/mu/graphics/Assignment/include/stageObject.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"IGraphicObject.h"
+	"triangleObject.h"
+	"shader.h"
+
+1491540602 source:/home/taruyang/mu/graphics/Assignment/flag.cpp
+	"flag.h"
+	"logging.h"
+
+1491516063 /home/taruyang/mu/graphics/Assignment/include/flag.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"IGraphicObject.h"
+	"triangleObject.h"
+	"shader.h"
+
+1496351346 /home/taruyang/mu/graphics/Assignment/include/studio.h
+	<math.h>
+	<vector>
+	<glm/glm.hpp>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"camera.h"
+	"IGraphicObject.h"
+	"windowManager.h"
+	"shader.h"
+	"textRenderer.h"
+	"gameControl.h"
+	"studioEnv.h"
+
+1496355143 source:/home/taruyang/mu/graphics/Assignment/studio.cpp
+	<cstdlib>
+	<vector>
+	<unistd.h>
+	"windowManager.h"
+	"logging.h"
+	"shader.h"
+	"triangleObject.h"
+	"stageObject.h"
+	"sphereObject.h"
+	"model.h"
+	"meshObject.h"
+	"rectObject.h"
+	"studio.h"
+	"textRenderer.h"
+	"planetObject.h"
+
+1491781879 source:/home/taruyang/mu/graphics/Assignment/flagObject.cpp
+	"flagObject.h"
+	"logging.h"
+
+1491782438 /home/taruyang/mu/graphics/Assignment/include/flagObject.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"IGraphicObject.h"
+	"triangleObject.h"
+	"shader.h"
+
+1496053887 source:/home/taruyang/mu/graphics/Assignment/sphereObject.cpp
+	<cstdlib>
+	"sphereObject.h"
+	"logging.h"
+
+1495728440 /home/taruyang/mu/graphics/Assignment/include/sphereObject.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"IGraphicObject.h"
+	"triangleObject.h"
+	"shader.h"
+
+1496054908 /home/taruyang/mu/graphics/Assignment/include/studioEnv.h
+	<glm/glm.hpp>
+
+1490126450 /usr/include/unistd.h
+	<features.h>
+	<bits/posix_opt.h>
+	<bits/environments.h>
+	<bits/types.h>
+	<stddef.h>
+	<bits/confname.h>
+	<getopt.h>
+	<bits/unistd.h>
+
+1490126451 /usr/include/sys/cdefs.h
+	<features.h>
+	<bits/wordsize.h>
+
+1490126419 /usr/include/bits/wordsize.h
+
+1490126382 /usr/include/gnu/stubs.h
+	<gnu/stubs-32.h>
+	<gnu/stubs-64.h>
+	<gnu/stubs-x32.h>
+
+1490126577 /usr/include/gnu/stubs-32.h
+
+1490126486 /usr/include/gnu/stubs-64.h
+
+1490126674 /usr/include/gnu/stubs-x32.h
+
+1490126448 /usr/include/bits/wchar.h
+
+1490126450 /usr/include/bits/types.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/typesizes.h>
+
+1490126450 /usr/include/bits/typesizes.h
+
+1490126448 /usr/include/bits/endian.h
+
+1490126448 /usr/include/bits/byteswap.h
+	<features.h>
+	<bits/types.h>
+	<bits/wordsize.h>
+	<bits/byteswap-16.h>
+
+1490126448 /usr/include/bits/byteswap-16.h
+
+1490126448 /usr/include/bits/wchar2.h
+
+1490126448 /usr/include/bits/wchar-ldbl.h
+
+1490126432 /usr/include/bits/libio-ldbl.h
+
+1490126420 /usr/include/bits/stdio_lim.h
+
+1490126432 /usr/include/bits/sys_errlist.h
+
+1490126432 /usr/include/bits/stdio.h
+
+1490126432 /usr/include/bits/stdio2.h
+
+1490126432 /usr/include/bits/stdio-ldbl.h
+
+1490126449 /usr/include/bits/time.h
+	<bits/types.h>
+	<bits/types.h>
+	<bits/timex.h>
+
+1490126449 /usr/include/bits/timex.h
+	<bits/types.h>
+
+1490126417 /usr/include/bits/math-vector.h
+	<bits/libm-simd-decl-stubs.h>
+
+1490126417 /usr/include/bits/libm-simd-decl-stubs.h
+
+1490126417 /usr/include/bits/huge_val.h
+	<endian.h>
+
+1490126417 /usr/include/bits/huge_valf.h
+
+1490126417 /usr/include/bits/huge_vall.h
+
+1490126417 /usr/include/bits/inf.h
+
+1490126417 /usr/include/bits/nan.h
+	<endian.h>
+
+1490126417 /usr/include/bits/mathdef.h
+
+1490126417 /usr/include/bits/mathcalls.h
+
+1490126417 /usr/include/bits/mathinline.h
+
+1490126417 /usr/include/bits/math-finite.h
+
+1490126450 /usr/include/bits/waitflags.h
+
+1490126450 /usr/include/bits/waitstatus.h
+	<endian.h>
+
+1490126450 /usr/include/sys/types.h
+	<features.h>
+	<bits/types.h>
+	<time.h>
+	<stddef.h>
+	<endian.h>
+	<sys/select.h>
+	<sys/sysmacros.h>
+	<bits/pthreadtypes.h>
+
+1490126451 /usr/include/sys/select.h
+	<features.h>
+	<bits/types.h>
+	<bits/select.h>
+	<bits/sigset.h>
+	<time.h>
+	<bits/time.h>
+	<bits/select2.h>
+
+1490126451 /usr/include/bits/select.h
+	<bits/wordsize.h>
+
+1490126419 /usr/include/bits/sigset.h
+
+1490126452 /usr/include/bits/select2.h
+
+1490126450 /usr/include/sys/sysmacros.h
+	<features.h>
+
+1490126450 /usr/include/bits/pthreadtypes.h
+	<bits/wordsize.h>
+
+1490126419 /usr/include/bits/stdlib-bsearch.h
+
+1490126419 /usr/include/bits/stdlib-float.h
+
+1490126419 /usr/include/bits/stdlib.h
+
+1490126419 /usr/include/bits/stdlib-ldbl.h
+
+1490126450 /usr/include/bits/posix_opt.h
+
+1490126450 /usr/include/bits/environments.h
+	<bits/wordsize.h>
+
+1490126450 /usr/include/bits/confname.h
+
+1490126450 /usr/include/bits/unistd.h
+
+1496054677 source:/home/taruyang/mu/graphics/Assignment/meshObject.cpp
+	<stddef.h>
+	<fstream>
+	<sstream>
+	<iostream>
+	"meshObject.h"
+
+1495769624 /home/taruyang/mu/graphics/Assignment/include/meshObject.h
+	<string>
+	<vector>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	"IGraphicObject.h"
+	"shader.h"
+
+1495716733 source:/home/taruyang/mu/graphics/Assignment/model.cpp
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<map>
+	<SOIL.h>
+	"model.h"
+	"logging.h"
+
+1494319070 /home/taruyang/mu/graphics/Assignment/include/model.h
+	<string>
+	<vector>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"meshObject.h"
+	"shader.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/Importer.hpp
+	"types.h"
+	"config.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/types.h
+	<sys/types.h>
+	<memory.h>
+	<math.h>
+	<stddef.h>
+	"defs.h"
+	"vector3.h"
+	"vector2.h"
+	"color4.h"
+	"matrix3x3.h"
+	"matrix4x4.h"
+	"quaternion.h"
+	<new>
+	<string>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"vector2.inl"
+	"vector3.inl"
+	"color4.inl"
+	"quaternion.inl"
+	"matrix3x3.inl"
+	"matrix4x4.inl"
+
+1490126447 /usr/include/memory.h
+	<features.h>
+	<string.h>
+
+1490126447 /usr/include/string.h
+	<features.h>
+	<stddef.h>
+	<xlocale.h>
+	<bits/string.h>
+	<bits/string2.h>
+	<bits/string3.h>
+
+1490126448 /usr/include/bits/string.h
+
+1490126448 /usr/include/bits/string2.h
+	<endian.h>
+	<bits/types.h>
+	<stdlib.h>
+
+1490126448 /usr/include/bits/string3.h
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/defs.h
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/vector3.h
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/Compiler/pushpack1.h
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/Compiler/poppack1.h
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/vector2.h
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/color4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/matrix3x3.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/matrix4x4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/quaternion.h
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/vector2.inl
+	"vector2.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/vector3.inl
+	"vector3.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/color4.inl
+	"color4.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/quaternion.inl
+	"quaternion.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/matrix3x3.inl
+	"matrix3x3.h"
+	"matrix4x4.h"
+	<algorithm>
+	<limits>
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/matrix4x4.inl
+	"matrix4x4.h"
+	"matrix3x3.h"
+	"quaternion.h"
+	<algorithm>
+	<limits>
+	<math.h>
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/config.h
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/scene.h
+	"types.h"
+	"texture.h"
+	"mesh.h"
+	"light.h"
+	"camera.h"
+	"material.h"
+	"anim.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/texture.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/mesh.h
+	"types.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/light.h
+	"types.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/camera.h
+	"types.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/material.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"material.inl"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/material.inl
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/anim.h
+	"types.h"
+	"quaternion.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/assimp/postprocess.h
+	"types.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/Importer.hpp
+	"types.h"
+	"config.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/types.h
+	<sys/types.h>
+	<memory.h>
+	<math.h>
+	<stddef.h>
+	<string.h>
+	<limits.h>
+	"defs.h"
+	"vector3.h"
+	"vector2.h"
+	"color4.h"
+	"matrix3x3.h"
+	"matrix4x4.h"
+	"quaternion.h"
+	<cstring>
+	<new>
+	<string>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"vector2.inl"
+	"vector3.inl"
+	"color4.inl"
+	"quaternion.inl"
+	"matrix3x3.inl"
+	"matrix4x4.inl"
+
+1490126382 /usr/include/limits.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/posix1_lim.h>
+	<bits/posix2_lim.h>
+	<bits/xopen_lim.h>
+
+1490126450 /usr/include/bits/posix1_lim.h
+	<bits/local_lim.h>
+
+1490126450 /usr/include/bits/local_lim.h
+	<linux/limits.h>
+
+1493317178 /usr/include/linux/limits.h
+
+1490126450 /usr/include/bits/posix2_lim.h
+
+1490126382 /usr/include/bits/xopen_lim.h
+	<bits/stdio_lim.h>
+	<bits/wordsize.h>
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/defs.h
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/vector3.h
+	<cmath>
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/Compiler/pushpack1.h
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/Compiler/poppack1.h
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/vector2.h
+	<cmath>
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/color4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/matrix3x3.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/matrix4x4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/quaternion.h
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/vector2.inl
+	"vector2.h"
+	<cmath>
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/vector3.inl
+	"vector3.h"
+	<cmath>
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/color4.inl
+	"color4.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/quaternion.inl
+	"quaternion.h"
+	<cmath>
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/matrix3x3.inl
+	"matrix3x3.h"
+	"matrix4x4.h"
+	<algorithm>
+	<cmath>
+	<limits>
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/matrix4x4.inl
+	"matrix4x4.h"
+	"matrix3x3.h"
+	"quaternion.h"
+	<algorithm>
+	<limits>
+	<cmath>
+	<math.h>
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/config.h
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/scene.h
+	"types.h"
+	"texture.h"
+	"mesh.h"
+	"light.h"
+	"camera.h"
+	"material.h"
+	"anim.h"
+	"metadata.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/texture.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/mesh.h
+	"types.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/light.h
+	"types.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/camera.h
+	"types.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/material.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"material.inl"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/material.inl
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/anim.h
+	"types.h"
+	"quaternion.h"
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/metadata.h
+	<assert.h>
+	"Compiler/pstdint.h"
+	<stdint.h>
+	<string>
+
+1490126415 /usr/include/assert.h
+	<features.h>
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/Compiler/pstdint.h
+	<stddef.h>
+	<limits.h>
+	<signal.h>
+	<stdint.h>
+	<wchar.h>
+
+1490126419 /usr/include/signal.h
+	<features.h>
+	<bits/sigset.h>
+	<bits/types.h>
+	<bits/signum.h>
+	<time.h>
+	<bits/siginfo.h>
+	<bits/sigaction.h>
+	<bits/sigcontext.h>
+	<stddef.h>
+	<bits/sigstack.h>
+	<sys/ucontext.h>
+	<bits/pthreadtypes.h>
+	<bits/sigthread.h>
+
+1490126419 /usr/include/bits/signum.h
+
+1490126419 /usr/include/bits/siginfo.h
+	<bits/wordsize.h>
+
+1490126419 /usr/include/bits/sigaction.h
+
+1490126419 /usr/include/bits/sigcontext.h
+
+1490126419 /usr/include/bits/sigstack.h
+
+1490126419 /usr/include/sys/ucontext.h
+	<features.h>
+	<signal.h>
+	<bits/sigcontext.h>
+
+1490126419 /usr/include/bits/sigthread.h
+
+1402729210 /home/taruyang/mu/graphics/assimp-3.1.1/include/assimp/postprocess.h
+	"types.h"
+
+1446576457 /usr/include/assimp/Importer.hpp
+	"types.h"
+	"config.h"
+
+1446576457 /usr/include/assimp/types.h
+	<sys/types.h>
+	<math.h>
+	<stddef.h>
+	<string.h>
+	<limits.h>
+	"defs.h"
+	"vector3.h"
+	"vector2.h"
+	"color4.h"
+	"matrix3x3.h"
+	"matrix4x4.h"
+	"quaternion.h"
+	<cstring>
+	<new>
+	<string>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"vector2.inl"
+	"vector3.inl"
+	"color4.inl"
+	"quaternion.inl"
+	"matrix3x3.inl"
+	"matrix4x4.inl"
+
+1446576457 /usr/include/assimp/defs.h
+
+1446576457 /usr/include/assimp/vector3.h
+	<cmath>
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1446576457 /usr/include/assimp/Compiler/pushpack1.h
+
+1446576457 /usr/include/assimp/Compiler/poppack1.h
+
+1446576457 /usr/include/assimp/vector2.h
+	<cmath>
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1446576457 /usr/include/assimp/color4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1446576457 /usr/include/assimp/matrix3x3.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1446576457 /usr/include/assimp/matrix4x4.h
+	"vector3.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1446576457 /usr/include/assimp/quaternion.h
+
+1446576457 /usr/include/assimp/vector2.inl
+	"vector2.h"
+	<cmath>
+
+1446576457 /usr/include/assimp/vector3.inl
+	"vector3.h"
+	<cmath>
+
+1446576457 /usr/include/assimp/color4.inl
+	"color4.h"
+
+1446576457 /usr/include/assimp/quaternion.inl
+	"quaternion.h"
+	<cmath>
+
+1446576457 /usr/include/assimp/matrix3x3.inl
+	"matrix3x3.h"
+	"matrix4x4.h"
+	<algorithm>
+	<cmath>
+	<limits>
+
+1446576457 /usr/include/assimp/matrix4x4.inl
+	"matrix4x4.h"
+	"matrix3x3.h"
+	"quaternion.h"
+	<algorithm>
+	<limits>
+	<cmath>
+
+1446576457 /usr/include/assimp/config.h
+
+1446576457 /usr/include/assimp/scene.h
+	"types.h"
+	"texture.h"
+	"mesh.h"
+	"light.h"
+	"camera.h"
+	"material.h"
+	"anim.h"
+	"metadata.h"
+
+1446576457 /usr/include/assimp/texture.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1446576457 /usr/include/assimp/mesh.h
+	"types.h"
+
+1446576457 /usr/include/assimp/light.h
+	"types.h"
+
+1446576457 /usr/include/assimp/camera.h
+	"types.h"
+
+1446576457 /usr/include/assimp/material.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"material.inl"
+
+1446576457 /usr/include/assimp/material.inl
+
+1446576457 /usr/include/assimp/anim.h
+	"types.h"
+	"quaternion.h"
+
+1446576457 /usr/include/assimp/metadata.h
+	<assert.h>
+	"Compiler/pstdint.h"
+	<limits.h>
+	<stdint.h>
+	<string>
+
+1446576457 /usr/include/assimp/Compiler/pstdint.h
+	<stddef.h>
+	<limits.h>
+	<signal.h>
+	<stdint.h>
+	<wchar.h>
+
+1446576457 /usr/include/assimp/postprocess.h
+	"types.h"
+
+1494849345 source:/home/taruyang/mu/graphics/Assignment/rectObject.cpp
+	<glm/gtc/matrix_transform.hpp>
+	"rectObject.h"
+	"logging.h"
+
+1494830062 /home/taruyang/mu/graphics/Assignment/include/rectObject.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"IGraphicObject.h"
+	"triangleObject.h"
+	"shader.h"
+
+1494664122 /home/taruyang/mu/graphics/Assignment/include/textRenderer.h
+	<string>
+	<map>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	"shader.h"
+	<ft2build.h>
+	"studioEnv.h"
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/freetype/ft2build.h
+	<config/ftheader.h>
+
+1489913923 /home/taruyang/mu/graphics/Assignment/include/freetype/config/ftheader.h
+
+1494849082 source:/home/taruyang/mu/graphics/Assignment/textRenderer.cpp
+	<glm/gtc/matrix_transform.hpp>
+	"textRenderer.h"
+	"logging.h"
+
+1495769806 /home/taruyang/mu/graphics/Assignment/include/gameControl.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1451844100 /usr/include/glm/gtc/matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1441047856 /usr/include/glm/gtc/constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1441049096 /usr/include/glm/gtc/constants.inl
+	<limits>
+
+1451844100 /usr/include/glm/gtc/matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1451844100 /usr/include/glm/gtc/quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1451844100 /usr/include/glm/gtc/quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+
+1495715350 source:/home/taruyang/mu/graphics/Assignment/rockObject.cpp
+	<stddef.h>
+	<fstream>
+	<sstream>
+	<iostream>
+	"rockObject.h"
+
+1495720022 /home/taruyang/mu/graphics/Assignment/include/rockObject.h
+	<string>
+	<vector>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	"IGraphicObject.h"
+	"shader.h"
+	"meshObject.h"
+
+1496053289 source:/home/taruyang/mu/graphics/Assignment/planetObject.cpp
+	<stddef.h>
+	<fstream>
+	<sstream>
+	<iostream>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"planetObject.h"
+
+1424014284 /usr/include/glm/gtc/type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1424014284 /usr/include/glm/gtc/type_ptr.inl
+	<cstring>
+
+1495758710 /home/taruyang/mu/graphics/Assignment/include/planetObject.h
+	<string>
+	<vector>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	"IGraphicObject.h"
+	"shader.h"
+	"meshObject.h"
+

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PlayGround" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PlayGround" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="include/SOIL" />
+					<Add directory="../assimp-3.1.1/include" />
+					<Add directory="/usr/include" />
+					<Add directory="include/freetype" />
+				</Compiler>
+				<Linker>
+					<Add library="GLEW" />
+					<Add library="glfw3" />
+					<Add library="GL" />
+					<Add library="X11" />
+					<Add library="Xxf86vm" />
+					<Add library="Xrandr" />
+					<Add library="pthread" />
+					<Add library="Xi" />
+					<Add library="m" />
+					<Add library="SOIL" />
+					<Add library="assimp" />
+					<Add library="freetype" />
+					<Add directory="lib" />
+					<Add directory="../assimp-3.1.1/build/code" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PlayGround" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="include/SOIL" />
+					<Add directory="../assimp-3.1.1/include" />
+					<Add directory="/usr/include" />
+					<Add directory="include/freetype" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="GLEW" />
+					<Add library="glfw3" />
+					<Add library="GL" />
+					<Add library="X11" />
+					<Add library="Xxf86vm" />
+					<Add library="Xrandr" />
+					<Add library="pthread" />
+					<Add library="Xi" />
+					<Add library="m" />
+					<Add library="SOIL" />
+					<Add library="assimp" />
+					<Add library="freetype" />
+					<Add directory="lib" />
+					<Add directory="../assimp-3.1.1/build/code" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+			<Add directory="/usr/include" />
+		</Compiler>
+		<Linker>
+			<Add library="GLEW" />
+			<Add library="glfw3" />
+			<Add library="GL" />
+			<Add library="X11" />
+			<Add library="Xxf86vm" />
+			<Add library="Xrandr" />
+			<Add library="pthread" />
+			<Add library="Xi" />
+			<Add library="m" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="camera.cpp" />
+		<Unit filename="include/IGraphicObject.h" />
+		<Unit filename="include/camera.h" />
+		<Unit filename="include/gameControl.h" />
+		<Unit filename="include/logging.h" />
+		<Unit filename="include/meshObject.h" />
+		<Unit filename="include/model.h" />
+		<Unit filename="include/planetObject.h" />
+		<Unit filename="include/rectObject.h" />
+		<Unit filename="include/shader.h" />
+		<Unit filename="include/sphereObject.h" />
+		<Unit filename="include/studio.h" />
+		<Unit filename="include/studioEnv.h" />
+		<Unit filename="include/textRenderer.h" />
+		<Unit filename="include/triangleObject.h" />
+		<Unit filename="include/windowManager.h" />
+		<Unit filename="logging.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="meshObject.cpp" />
+		<Unit filename="model.cpp" />
+		<Unit filename="planetObject.cpp" />
+		<Unit filename="rectObject.cpp" />
+		<Unit filename="shader.cpp" />
+		<Unit filename="sphereObject.cpp" />
+		<Unit filename="studio.cpp" />
+		<Unit filename="textRenderer.cpp" />
+		<Unit filename="triangleObject.cpp" />
+		<Unit filename="windowManager.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="2" />
+				<doxyfile_project />
+				<doxyfile_build extract_all="1" extract_private="1" extract_static="1" />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general use_at_in_tags="1" />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
